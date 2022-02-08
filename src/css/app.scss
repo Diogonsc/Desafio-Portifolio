@@ -1,0 +1,30 @@
+// app global css in SCSS form
+
+:root {
+  --branco: #f9f9f9;
+  --cinza: #828282;
+  --cinza-200: #333333;
+  --cinza-400: #212121;
+  --preto: #171717;
+  --verde: #00df5e;
+
+  --dm-sans: "DM Sans", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--preto) !important;
+}
+
+p {
+  margin: 0;
+}
+
+.container-geral {
+  padding: 0 6.68rem;
+}
